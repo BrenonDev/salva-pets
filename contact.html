@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforma Pet</title>
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+    <div class="container contact">
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Pets</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contatos</a>
+            </nav>
+        </header>
+        <main>
+            <section class="contact-area">
+                <h1>Fale Conosco</h1>
+                <p>Quer adotar, doar ou tirar dúvidas? Estamos aqui para te ouvir. Preencha o formulário abaixo e entraremos em contato o mais breve possível.</p>
+                <form action="" method="post">
+                    <label>
+                        Nome
+                        <input type="text" name="name" required placeholder="Seu nome completo">
+                    </label>
+                    <label>
+                        E-mail
+                        <input type="email" name="email" required placeholder="exemplo@email.com">
+                    </label>
+                    <label>
+                        Assunto
+                        <select name="subject" required>
+                            <option value="">Selecione uma opção</option>
+                            <option value="adoption">Quero adotar um pet</option>
+                            <option value="donation">Quero doar um pet</option>
+                            <option value="info">Gostaria de mais informações</option>
+                        </select>
+                    </label>
+                    <label>
+                        Mensagem
+                        <textarea name="message" required placeholder="Digite sua mensagem aqui..."></textarea>
+                    </label>
+                    <button type="submit" class="button">Enviar Mensagem</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Projeto Transforma Pet. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
