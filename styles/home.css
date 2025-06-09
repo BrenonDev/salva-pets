@@ -1,0 +1,37 @@
+.home {
+    & header {
+        & .menu {
+            & .home-menu {
+                &::after {
+                    left: 0%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    & main {
+        & section.hero {
+            & img {
+                border-radius: 1rem;
+            }
+
+            & h1 {
+                font: var(--title-lg);
+                text-align: center;
+                line-height: 3rem;
+            }
+            
+            & p {
+                font: var(--text-md);
+                text-align: center;
+            }
+
+            & .buttons {
+                & a {
+
+                }
+            }
+        }
+    }
+}

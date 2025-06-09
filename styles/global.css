@@ -32,9 +32,9 @@
     --ff-merriweather: "Merriweather", serif;
     --ff-roboto-mono: "Roboto Mono", monospace;
 
-    --title-sm: 400 1.5rem var(--ff-poppins);
-    --title-md: 400 2rem var(--ff-poppins);
-    --title-lg: 400 2.5rem var(--ff-poppins);
+    --title-sm: 600 1.5rem var(--ff-poppins);
+    --title-md: 600 2rem var(--ff-poppins);
+    --title-lg: 600 2.5rem var(--ff-poppins);
     --text-xs: 400 .5rem var(--ff-inter);
     --text-sm: 400 .75rem var(--ff-inter);
     --text-md: 400 1rem var(--ff-inter);
@@ -56,4 +56,8 @@ img {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+li {
+    list-style: none;
 }
