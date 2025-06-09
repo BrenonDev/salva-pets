@@ -1,0 +1,47 @@
+.pets {
+    & header {
+        & .menu {
+            & .pets-menu {
+                &::after {
+                    left: 0%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    & main {
+        & section.hero {
+            & h1 {
+                font: var(--title-md);
+                text-align: center;
+                line-height: 2.5rem;
+            }
+
+            & img {
+                border-radius: 1rem;
+            }
+        }
+
+        & section.adopt {
+            & h2 {
+                font: var(--title-md);
+            }
+
+            & p {
+                font: var(--text-md);
+            }
+        }
+
+        & section.donate {
+            & h2 {
+                font: var(--title-md);
+            }
+
+            & p {
+                font: var(--text-md);
+            }
+        }
+    }
+
+}

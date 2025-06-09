@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container pets">
+    <div class="container pets flex flex-column gap-2">
         <header class="flex align-center space-between">
             <div class="logo flex align-center gap-0.5">
                 <div class="images">
@@ -28,20 +28,20 @@
                 <a href="contact.html" class="contact-menu">Contato</a>
             </nav>
         </header>
-        <main>
-            <section class="hero">
+        <main class="flex flex-column gap-1">
+            <section class="hero flex flex-column gap-1">
                 <h1>Encontre um novo amigo ou ajude a transformar vidas</h1>
                 <img src="assets/images/people-with-pets.png" alt="Quatro pessoas de diferentes etnias segurando cachorros e gatos em um ambiente ao ar livre.">
             </section>
-            <section class="adopt" id="adopt">
+            <section class="adopt flex flex-column gap-1" id="adopt">
                 <h2>Quero Adotar</h2>
                 <p>Adotar um pet é um gesto de amor e responsabilidade. Nossos animais são vacinados, vermifugados e preparados para encontrar um novo lar. Você pode conhecer seus perfis, entender o processo e preencher um formulário de interesse.</p>
-                <a href="contact.html" class="button">Adote um Pet</a>
+                <a href="contact.html" class="button-green">Adote um Pet</a>
             </section>
-            <section class="donate" id="donate">
+            <section class="donate flex flex-column gap-1" id="donate">
                 <h2>Quero Doar um Pet</h2>
                 <p>Está precisando doar um animal? Nós oferecemos orientação sobre como fazer isso com segurança, respeitando o bem-estar do pet. Entre em contato e nossa equipe irá avaliar e auxiliar da melhor forma possível.</p>
-                <a href="contact.html" class="button">Doe um Pet</a>
+                <a href="contact.html" class="button-orange">Doe um Pet</a>
             </section>
         </main>
         <footer class="footer-copy">
