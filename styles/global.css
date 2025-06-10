@@ -23,8 +23,7 @@
     --orange-dark-color: #EF6C00;
     --orange-darker-color: #E65100;
 
-    --error-color: #E57373;
-    --success-color: #81C784;
+    --background-color: #D9FDF9;
 
     --ff-inter: "Inter", sans-serif;
     --ff-poppins: "Poppins", sans-serif;
@@ -47,7 +46,7 @@
 }
 
 body {
-    background-color: #EFFFFD;
+    background-color: var(--background-color);
 }
 
 img {

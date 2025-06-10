@@ -59,7 +59,7 @@
                     & input, select, textarea {
                         padding: .5rem;
                         height: 2.5rem;
-                        border: 1px solid var(--gray-light-color);
+                        border: 1px solid var(--gray-color);
                         border-radius: .5rem;
                         filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.1));
                         font: var(--text-sm);
@@ -80,7 +80,11 @@
                 filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.1));
             }
 
-
+            & .map {
+                & img {
+                    filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.1));
+                }
+            }
         }
 
         & section.other-information {
@@ -137,7 +141,7 @@
                 & h2 {
                     display: none;
                 }
-                
+
                 & .contact-information {
                     flex-direction: row;
                 }
