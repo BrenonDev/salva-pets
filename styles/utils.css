@@ -39,11 +39,21 @@
 }
 
 .container {
-    padding: 1rem 2.5rem;
+    padding: .5rem 1rem;
 
     & main {
         margin-inline: auto;
         max-width: 45rem;
+    }
+
+    @media (width >= 33rem) {
+        padding: 1rem 2.5rem;
+
+        & header {
+            & nav {
+                gap: 1rem;
+            }
+        }
     }
 }
 
@@ -81,6 +91,14 @@
             filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.1));
         }
     }
+
+    @media (width <= 27em) {
+        scale: 0.9;
+    }
+
+    @media (width >= 33em) {
+        scale: 1.1;
+    }
 }
 
 .menu {
@@ -108,6 +126,14 @@
                 width: 100%;
             }
         }
+    }
+
+    @media (width <= 27em) {
+        scale: 0.9;
+    }
+
+    @media (width >= 33em) {
+        scale: 1.1;
     }
 }
 

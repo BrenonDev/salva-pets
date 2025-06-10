@@ -12,12 +12,14 @@
 
     & main {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
         grid-template-areas:
-            "hero hero"
-            "our-history mission"
-            "vision values";
+            "hero "
+            "our-history"
+            "mission"
+            "vision"
+            "values";
         gap: 1rem;
         
         & section:not(.hero) {
@@ -51,11 +53,6 @@
                 border-radius: 1rem;
                 filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.1));
             }
-
-            & section.hero {
-
-            }
-
         }
 
         & section.our-history {
@@ -73,7 +70,18 @@
         & section.values {
             grid-area: values;
         }
+    }
 
-
+    @media (width >= 30em) {
+        & main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto auto;
+            grid-template-areas:
+                "hero hero"
+                "our-history mission"
+                "vision values";
+            gap: 1rem;
+        }
     }
 }

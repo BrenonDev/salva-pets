@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container contact">
-        <header class="flex align-center space-between">
+    <div class="container contact flex flex-column gap-2">
+        <header class="flex align-center space-between gap-0.5">
             <div class="logo flex align-center gap-0.5">
                 <div class="images">
                     <img src="assets/icons/heart.svg" alt="Ícone de coração.">
@@ -21,18 +21,20 @@
                     <span>SALVA PETS</span>
                 </div>
             </div>
-            <nav class="menu flex gap-1">
+            <nav class="menu flex gap-0.5">
                 <a href="index.html" class="home-menu">Início</a>
                 <a href="pets.html" class="pets-menu">Pets</a>
                 <a href="about.html" class="about-menu">Sobre</a>
                 <a href="contact.html" class="contact-menu">Contato</a>
             </nav>
         </header>
-        <main>
-            <section class="contact-area">
+        <main class="flex flex-column gap-2">
+            <section class="hero flex flex-column gap-1">
                 <h1>Fale Conosco</h1>
                 <p>Quer adotar, doar ou tirar dúvidas? Estamos aqui para te ouvir. Preencha o formulário abaixo e entraremos em contato o mais breve possível.</p>
-                <form action="" method="post">
+            </section>
+            <section class="contact-area flex flex-column gap-1">
+                <form action="" method="post" class="flex flex-column gap-1">
                     <label>
                         Nome
                         <input type="text" name="name" required placeholder="Seu nome completo">
@@ -54,24 +56,24 @@
                         Mensagem
                         <textarea name="message" required placeholder="Digite sua mensagem aqui..."></textarea>
                     </label>
-                    <button type="submit" class="button">Enviar Mensagem</button>
+                    <button type="submit" class="button-green">Enviar Mensagem</button>
                 </form>
             </section>
+            <section class="location">
+                <img src="assets/images/map-location.png" alt="">
+            </section>
             <section class="other-information">
-                <div class="location">
-                    <img src="assets/images/map-location.png" alt="">
-                </div>
-                <ul class="contact-information">
-                    <li>
-                        <img src="" alt="">
+                <ul class="contact-information flex gap-1">
+                    <li class="flex align-center gap-0.5">
+                        <img src="assets/icons/telephone.svg" alt="">
                         <span>(15) 98765-4321</span>
                     </li>
-                    <li>
-                        <img src="" alt="">
+                    <li class="flex align-center gap-0.5">
+                        <img src="assets/icons/envelope.svg" alt="">
                         <span>salva.pets@email.com</span>
                     </li>
-                    <li>
-                        <img src="" alt="">
+                    <li class="flex align-center gap-0.5">
+                        <img src="assets/icons/clock.svg" alt="">
                         <span>Atendemos de segunda a sexta, das 10h às 17h.</span>
                     </li>
                 </ul>
