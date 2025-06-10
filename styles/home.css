@@ -29,12 +29,6 @@
                 font: var(--text-md);
                 text-align: center;
             }
-
-            & .buttons {
-                & a {
-
-                }
-            }
         }
     }
 }

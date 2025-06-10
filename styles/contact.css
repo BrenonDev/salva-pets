@@ -72,9 +72,27 @@
             }
         }
 
+        & section.location {
+            & h2 {
+                font: var(--title-sm);
+                text-align: center;
+                line-height: 3rem;
+                filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.1));
+            }
+
+
+        }
+
         & section.other-information {
             grid-area: other-information;
             width: 100%;
+
+            & h2 {
+                font: var(--title-sm);
+                text-align: center;
+                line-height: 3rem;
+                filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.1));
+            }
 
             & .location {
                 & img {
@@ -108,6 +126,22 @@
                 "hero hero"
                 "contact-area location"
                 "other-information other-information";
+
+            & section.location {
+                & h2 {
+                    display: none;
+                }
+            }
+
+            & section.other-information {
+                & h2 {
+                    display: none;
+                }
+                
+                & .contact-information {
+                    flex-direction: row;
+                }
+            }
         }
     }
 }

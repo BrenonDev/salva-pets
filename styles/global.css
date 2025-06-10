@@ -41,7 +41,9 @@
     --text-md: 400 1rem var(--ff-inter);
     --text-lg: 400 1.25rem var(--ff-inter);
     --text-xl: 400 1.5rem var(--ff-inter);
-    --logo: 800 1.3rem var(--ff-nunito)
+    --logo-sm: 800 1rem var(--ff-nunito);
+    --logo-md: 800 1.25rem var(--ff-nunito);
+    --logo-lg: 800 1.5rem var(--ff-nunito);
 }
 
 body {
@@ -51,6 +53,8 @@ body {
 img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
+    letter-spacing: 0;
 }
 
 a {
