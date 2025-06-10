@@ -166,6 +166,6 @@
 .footer-copy {
     & p {
         text-align: center;
-        font: var(--text-sm);
+        font: var(--text-xs);
     }
 }

@@ -35,13 +35,13 @@
     --title-sm: 600 1.5rem var(--ff-poppins);
     --title-md: 600 2rem var(--ff-poppins);
     --title-lg: 600 2.5rem var(--ff-poppins);
-    --text-xs: 400 .5rem var(--ff-inter);
-    --text-sm: 400 .75rem var(--ff-inter);
+    --title-institutional: 600 1.5rem var(--ff-merriweather);
+    --text-xs: 400 .75rem var(--ff-inter);
+    --text-sm: 400 .875rem var(--ff-inter);
     --text-md: 400 1rem var(--ff-inter);
     --text-lg: 400 1.25rem var(--ff-inter);
     --text-xl: 400 1.5rem var(--ff-inter);
     --logo: 800 1.3rem var(--ff-nunito)
-    
 }
 
 body {

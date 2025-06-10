@@ -13,13 +13,16 @@
     & main {
         & section.hero {
             & img {
+                border: 1px solid var(--gray-light-color);
                 border-radius: 1rem;
+                filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.1));
             }
 
             & h1 {
                 font: var(--title-lg);
                 text-align: center;
                 line-height: 3rem;
+                filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.1));
             }
             
             & p {
